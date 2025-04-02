@@ -24,7 +24,7 @@ library(sdcMicro)
 # Set working directory #
 #########################
 
-wd <- "../data"
+wd <- "anonymization-software-demo/data"
 setwd(wd)
 file_name <- "adult.csv"
 
