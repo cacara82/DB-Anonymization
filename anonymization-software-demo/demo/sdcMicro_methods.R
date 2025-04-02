@@ -1,13 +1,13 @@
 # loading the sdcMicro package
 
-install.packages("sdcMicro")
+#install.packages("sdcMicro")
 
 library(sdcMicro) 
 library(tidyverse)
 
 rm(list = ls()) # to clean out workspace
 
-wd <- "../data"
+wd <- "anonymization-software-demo/data"
 setwd(wd)
 file_name <- "adult.csv"
 

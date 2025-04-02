@@ -1,11 +1,11 @@
 # loading the sdcMicro package
 
-install.packages("sdcMicro")
+#install.packages("sdcMicro")
 
 library(sdcMicro) 
 library(tidyverse)
 
-wd <- "../data"
+wd <- "anonymization-software-demo/data"
 setwd(wd)
 file_name <- "adult.csv"
 
@@ -114,3 +114,4 @@ sum(sdc@origData$capita.gain > mean(sdc@origData$capital.gain) + 1.5 * IQR(sdc@o
 # Household risk
 # sdc@risk$global$hier_risk
 # sdc@risk$global$hier_risk_ER
+
