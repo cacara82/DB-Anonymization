@@ -5,7 +5,7 @@ library(tidyverse)
 # LOAD DATA #
 #############
 
-setwd("../data")
+setwd("anonymization-software-demo/data")
 file <- read.csv("synthdata.csv")
 View(file)
 

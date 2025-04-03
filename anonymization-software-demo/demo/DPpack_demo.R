@@ -1,7 +1,7 @@
 install.packages("DPpack")
 library(DPpack)
 library(tidyverse)
-setwd("../data")
+setwd("anonymization-software-demo/data")
 
 file <- read.csv("synthdata.csv")
 View(file)

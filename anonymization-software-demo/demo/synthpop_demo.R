@@ -11,7 +11,7 @@ library(synthpop)              # to load package
 ######################
 
 getwd()
-wd <- "../data"
+wd <- "anonymizartion-software-demo/data"
 setwd(wd)
 file_name <- "adult.csv"
 
@@ -113,3 +113,4 @@ compare(synfit.synds2, mydata)
 # Export to SPSS
 ?write.syn
 write.syn(mysyn, filename = "mysyn", filetype = "csv")
+
